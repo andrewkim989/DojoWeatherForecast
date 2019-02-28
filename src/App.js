@@ -18,8 +18,6 @@ class App extends Component {
             <NavLink to = "/dc" activeClassName = "here">Washington, D.C.</NavLink> |
             <NavLink to = "/chicago" activeClassName = "here">Chicago, IL</NavLink>
           </div>
-        </BrowserRouter>
-        <BrowserRouter>
           <div id = "main">
             <Switch>
               <Redirect exact from = "/" to = "/sanjose" />
